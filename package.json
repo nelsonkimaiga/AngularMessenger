@@ -6,7 +6,7 @@
         "node.js",
         "sample"
     ],
-    "author": "NetBeans",
+    "author": "Kimaiga",
     "dependencies": {
         "express": "^4.10.1",
         "body-parser": "^1.4.3",
