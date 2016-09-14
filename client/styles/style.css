@@ -1,8 +1,14 @@
 html,
 body {
     font-family: 'Raleway', serif;
+    background: #d02639;
     color: #666;
     text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
 }
 
 .container {
