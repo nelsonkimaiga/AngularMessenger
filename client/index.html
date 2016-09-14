@@ -4,6 +4,7 @@
         <title>Angular Messenger</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/foundation.css" rel="stylesheet" type="text/css">
         <link href="styles/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body data-ng-controller="MessagesCtrl">
@@ -13,7 +14,7 @@
                 <textarea rows="1" cols="40" placeholder="Type a messsage" data-ng-model="currentMessage">
 
                 </textarea><br/>
-                <button type="button" data-ng-click="sendText()" data-ng-disabled="currentMessage.length < 1">Send</button>
+                <button type="button" data-ng-click="sendText()" data-ng-disabled="currentMessage.length < 1" class="button success">Send</button>
             </div>
 
             <mytitle msg="'Messages'"></mytitle>
