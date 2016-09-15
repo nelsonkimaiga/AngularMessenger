@@ -1,8 +1,8 @@
 html,
 body {
     font-family: 'Raleway', serif;
-    background: #d02639;
-    color: #666;
+    background: rgb(46, 102, 154);
+    color: #fff;
     text-align: center;
     font-weight: 300;
     font-size: 16px;
@@ -16,4 +16,8 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+h2{
+  font-family: 'Raleway', serif;
 }
